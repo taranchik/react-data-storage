@@ -1,0 +1,12 @@
+img {
+    height: 10px;
+}
+
+span:hover{
+    cursor: pointer;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}

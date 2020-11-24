@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# React Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Image](https://i.imgur.com/kGnhFvg.png)
 
-## Available Scripts
+> Calendar of holidays for all countries
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## How To Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repositry
+```
+git clone https://github.com/taranchik/react-calendar
+```
 
-### `yarn test`
+2. Go to the application directory
+```
+cd react-calendar
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Run the following command in order to install required packages and start the application after
+```
+npm install && npm start
+```
 
-### `yarn build`
+### Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You have menu which consist of the Home page and the Holidays page, where you can see holidays of the specific country.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In order to fetch holidays for the specific country you are able to do the following actions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Select the country from the list
 
-### `yarn eject`
+![List of countries](https://i.imgur.com/kGnhFvg.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Scroll the calendar to see all holidays in the specific country
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Holidays calendar](https://i.imgur.com/AjwY64l.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. You can also select `Show only public holidays` checkbox, than you will see only public holidays
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Show only public holidays checkbox](https://i.imgur.com/dAdTBFB.png)
 
-## Learn More
+``WARNING!`` You are able to see all holidays untill the year 2020, because of the reason "Free accounts are limited to last year's historical data only. Upgrade to premium for access to all holiday data. For more information, please visit https:\/\/holidayapi.com\/docs". 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+So that is why the calendar is set to the date 2019-11-19 by default.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Author Info
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- LinkedIn - [Viacheslav Taranushenko](https://www.linkedin.com/in/viacheslav-taranushenko-727466187/)
+- GitHub - [@taranchik](https://github.com/taranchik)
+- GitLab - [@taranchik](https://gitlab.com/taranchik)
+- Twitter - [@viataranushenko](https://twitter.com/viataranushenko)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back To The Top](#react-calendar)

@@ -1,0 +1,8 @@
+.show-holidays {
+    font-size: 25px;
+}
+
+.show-holidays:hover {
+    color: black;
+    cursor: auto;
+}
