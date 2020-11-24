@@ -1,0 +1,38 @@
+{
+   "brands":[
+      {
+         "id":1,
+         "name":"Dolmio",
+         "color":"#390907"
+      },
+      {
+         "id":3,
+         "name":"Saputo",
+         "color":"#d6ae64"
+      },
+      {
+         "id":2,
+         "name":"Mars",
+         "color":"#b4d664",
+         "child":[
+            {
+               "id":8,
+               "name":"Snickers",
+               "color":"#30693d",
+               "child":[
+                  {
+                     "id":10,
+                     "name":"Snickers Mini",
+                     "color":"#303169"
+                  }
+               ]
+            },
+            {
+               "id":9,
+               "name":"Bounty",
+               "color":"#693030"
+            }
+         ]
+      }
+   ]
+}

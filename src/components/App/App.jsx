@@ -26,7 +26,7 @@ class App extends Component {
                         <Home />
                     </Route>
                     <Route path="/holidays">
-                        <Holidays />
+                        {/* <Holidays /> */}
                     </Route>
                 </Switch>
             </Router>
