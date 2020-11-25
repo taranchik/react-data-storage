@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from "react";
 import Home from '../Home/Home.jsx'
-import Holidays from '../Holidays/Holidays.jsx'
+import DataInformation from '../DataInformation/DataInformation.jsx'
 import { BrowserRouter as Router, Link, Switch, Route, Redirect } from "react-router-dom";
 
 
@@ -16,7 +16,7 @@ class App extends Component {
                         <Link to="/home">Home Page</Link>
                     </li>
                     <li>
-                        <Link to="/holidays">Holidays Page</Link>
+                        <Link to="/data-information">Data information</Link>
                     </li>
                 </ul>
                 <hr />
@@ -25,8 +25,8 @@ class App extends Component {
                     <Route path="/home">
                         <Home />
                     </Route>
-                    <Route path="/holidays">
-                        {/* <Holidays /> */}
+                    <Route path="/data-information">
+                        <DataInformation />
                     </Route>
                 </Switch>
             </Router>

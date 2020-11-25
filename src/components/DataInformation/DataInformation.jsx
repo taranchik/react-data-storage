@@ -1,6 +1,6 @@
 import { Component } from 'react'
 
-class Holidays extends Component {
+class DataInformation extends Component {
     constructor(props) {
         super(props);
 
@@ -15,4 +15,4 @@ class Holidays extends Component {
     }
 }
 
-export default Holidays;
+export default DataInformation;
