@@ -39,7 +39,7 @@ In the upper right corner there is a menu for navigating to different pages of t
 
 3. On the Data information page, you can see the aggregated data that was derived from the xlsx and JSON file.
 
-![Show only public holidays checkbox](https://i.imgur.com/BsuxnwH.png)
+![Data information page](https://i.imgur.com/BsuxnwH.png)
 
 ``WARNING!`` There is no input validation, be careful when you enter data into inputs.
 
