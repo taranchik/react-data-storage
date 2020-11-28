@@ -16,7 +16,9 @@ const DataInformation = () => {
         size: null
     }
 
-    const [inputData, setInputData] = React.useState(INITIAL_STATE_INPUT_DATA);
+    const [inputData, setInputData] = React.useState(
+        INITIAL_STATE_INPUT_DATA
+    );
 
     const [fileData, setFileData] = React.useState(
         INITIAL_STATE_FILE_DATA
@@ -31,11 +33,13 @@ const DataInformation = () => {
     }, [])
 
     React.useEffect(() => {
-        const stringifiedFileData = JSON.stringify(fileData)
-        localStorage.setItem("fileData", stringifiedFileData)
+        if (inputData.isLoaded) {
+            const stringifiedFileData = JSON.stringify(fileData)
+            localStorage.setItem("fileData", stringifiedFileData)
 
-        const stringifiedInputData = JSON.stringify(inputData)
-        localStorage.setItem("inputData", stringifiedInputData)
+            const stringifiedInputData = JSON.stringify(inputData)
+            localStorage.setItem("inputData", stringifiedInputData)
+        }
     }, [fileData, inputData])
 
     React.useEffect(() => {
