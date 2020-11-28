@@ -1,8 +1,8 @@
-# React Calendar
+# React data storage
 
-![Project Image](https://i.imgur.com/kGnhFvg.png)
+![Project Image](https://i.imgur.com/CEX7yTp.png)
 
-> Calendar of holidays for all countries
+> React app for storing data
 
 ---
 
@@ -12,12 +12,12 @@
 
 1. Clone the repositry
 ```
-git clone https://github.com/taranchik/react-calendar
+git clone https://github.com/taranchik/react-data-storage
 ```
 
 2. Go to the application directory
 ```
-cd react-calendar
+cd react-data-storage
 ```
 
 3. Run the following command in order to install required packages and start the application after
@@ -27,25 +27,21 @@ npm install && npm start
 
 ### Usage
 
-You have menu which consist of the Home page and the Holidays page, where you can see holidays of the specific country.
+In the upper right corner there is a menu for navigating to different pages of the application.  
 
-In order to fetch holidays for the specific country you are able to do the following actions:
+1. To display data on the home page and on the data information page, you must enter the data into inputs and click the submit button.
 
-1. Select the country from the list
+![Input window](https://i.imgur.com/k45zr4E.png)
 
-![List of countries](https://i.imgur.com/kGnhFvg.png)
+2. After that, the timer will be started, when the timer is over, the data will be deleted and the page will return to its original state.
 
-2. Scroll the calendar to see all holidays in the specific country
+![Home page](https://i.imgur.com/4KmBxQk.png)
 
-![Holidays calendar](https://i.imgur.com/AjwY64l.png)
+3. On the Data information page, you can see the aggregated data that was derived from the xlsx and JSON file.
 
-3. You can also select `Show only public holidays` checkbox, than you will see only public holidays
+![Show only public holidays checkbox](https://i.imgur.com/BsuxnwH.png)
 
-![Show only public holidays checkbox](https://i.imgur.com/dAdTBFB.png)
-
-``WARNING!`` You are able to see all holidays untill the year 2020, because of the reason "Free accounts are limited to last year's historical data only. Upgrade to premium for access to all holiday data. For more information, please visit https:\/\/holidayapi.com\/docs". 
-
-So that is why the calendar is set to the date 2019-11-19 by default.
+``WARNING!`` There is no input validation, be careful when you enter data into inputs.
 
 ---
 
@@ -56,4 +52,4 @@ So that is why the calendar is set to the date 2019-11-19 by default.
 - GitLab - [@taranchik](https://gitlab.com/taranchik)
 - Twitter - [@viataranushenko](https://twitter.com/viataranushenko)
 
-[Back To The Top](#react-calendar)
+[Back To The Top](#react-data-storage)
