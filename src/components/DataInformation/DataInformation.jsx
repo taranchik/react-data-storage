@@ -18,14 +18,17 @@ const DataInformation = () => {
 
     const [inputData, setInputData] = React.useState(INITIAL_STATE_INPUT_DATA);
 
-    React.useEffect(() => {
-        const parsedInputData = localStorage.getItem("inputData") ? JSON.parse(localStorage.getItem("inputData")) : INITIAL_STATE_INPUT_DATA;
-        setInputData(parsedInputData)
-    }, [])
-
     const [fileData, setFileData] = React.useState(
         INITIAL_STATE_FILE_DATA
     );
+
+    React.useEffect(() => {
+        const parsedInputData = localStorage.getItem("inputData") ? JSON.parse(localStorage.getItem("inputData")) : INITIAL_STATE_INPUT_DATA;
+        setInputData(parsedInputData)
+
+        const parsedFileData = localStorage.getItem("fileData") ? JSON.parse(localStorage.getItem("fileData")) : INITIAL_STATE_FILE_DATA;
+        setFileData(parsedFileData)
+    }, [])
 
     React.useEffect(() => {
         const stringifiedFileData = JSON.stringify(fileData)
